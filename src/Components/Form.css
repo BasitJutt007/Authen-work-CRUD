@@ -1,0 +1,201 @@
+body {
+  display: block !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+}
+
+.centered-form {
+  background-color: rgb(241, 241, 241);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75vh;
+  height: 80vh;
+  border-radius: 5vh;
+  margin: 0 auto;
+}
+
+.centered-form img {
+  max-width: 50px;
+}
+
+.centered-form h1 {
+  margin: 20px 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.purple-button {
+  background-color: rgb(119, 0, 255);
+  color: white;
+  padding: 10px 20px;
+  width: 16vh;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin-left: 1vh; */
+}
+
+.text-field {
+  width: 55vh;
+  color: black;
+  background-color: transparent;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-field:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 5px blue;
+}
+.msgName {
+  font-size: 15px;
+}
+
+.invalid {
+  border: 1px solid red;
+  place-content: "Fill this Field";
+}
+
+.error-message {
+  background-image: linear-gradient(to bottom right, #ff0015, #ff5500);
+  display: block;
+  color: white;
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  background-image: linear-gradient(to bottom right, #40ff00, #0dff00);
+  display: block;
+  color: white;
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* DASHBOARD CSS STARTS FROM HERE */
+.dash-board {
+  font-family: Helvetica;
+}
+
+.edit-button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: rgb(255, 2, 2);
+  color: black;
+  font-weight: bold;
+}
+.dash-board {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
+
+.edit-button,
+.delete-button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+.navbar-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
